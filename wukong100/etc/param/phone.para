@@ -22,6 +22,7 @@ const.product.preview.enable_uiservice=false
 const.abilityms.enable_uiservice=false
 const.window.multiWindowUIType=HandsetSmartWindow
 persist.systemui.live2 = true
+const.intelligentscene.enable=true
 persist.sys.graphic.GpuApitype = 1
 abilitymanagerservice.support.appgallery.selector=false
 
