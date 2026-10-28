@@ -72,6 +72,15 @@
       ]
     },
     {
+      "subsystem": "arkcompiler",
+      "components": [
+        {
+          "component": "jsvm",
+          "features": []
+        }
+      ]
+    },
+    {
       "subsystem": "hdf",
       "components": [
         {
