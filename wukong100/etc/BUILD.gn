@@ -132,6 +132,12 @@ ohos_prebuilt_etc("poweroff_config_config") {
   part_name = "product_wukong100"
 }
 
+ohos_prebuilt_etc("auth_widget_config") {
+  source = "./auth_widget/auth_widget_config.json"
+  relative_install_dir = "auth_widget"
+  part_name = "product_wukong100"
+}
+
 ohos_prebuilt_etc("gesture_navigation_setting_config") {
   source = "./scb_effect_config/gesture_navigation_setting.json"
   relative_install_dir = "scb_effect_config"
@@ -160,6 +166,7 @@ group("product_etc_conf") {
     ":Settings_OpenSource_config",
     ":gesture_navigation_setting_config",
     ":poweroff_config_config",
+    ":auth_widget_config",
     ":para_for_variant",
     ":para_for_animationsounds",
     ":para_for_alarms",
