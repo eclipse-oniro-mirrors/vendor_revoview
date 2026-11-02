@@ -187,7 +187,9 @@
       "components": [
         {
           "component": "product_wukong100",
-          "features": []
+          "features": [
+            "make_pac_format_image = true"
+          ]
         }
       ]
     },
