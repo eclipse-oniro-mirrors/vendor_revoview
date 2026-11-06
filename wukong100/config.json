@@ -237,6 +237,15 @@
         }
       ]
     },
+    { 
+      "subsystem": "customization",
+      "components": [
+        {
+          "component": "assessment_configuration_service",
+          "features": []
+        }
+      ]
+    },
     {
       "subsystem": "multimedia",
       "components": [
