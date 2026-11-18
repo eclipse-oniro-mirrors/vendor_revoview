@@ -15,6 +15,17 @@
   "inherit": [ "productdefine/common/inherit/rich.json", "productdefine/common/inherit/chipset_common.json" ],
   "subsystems": [
     {
+      "subsystem": "build",
+      "components": [
+        {
+          "component": "build_framework",
+          "features": [
+            "build_framework_enable_incremental_build = true"
+          ]
+        }
+      ]
+    },
+    {
       "subsystem": "security",
       "components": [
         {
