@@ -1,0 +1,17 @@
+{
+    "namespace": "product_wukong100",
+    "configs": [
+        {
+            "configName": "camera_applist",
+            "excludeProductSeries": []
+        },
+        {
+            "configName": "keyboardmouse_applist",
+            "excludeProductSeries": []
+        },
+        {
+            "configName": "forcesplit_applist",
+            "excludeProductSeries": []
+        }
+    ]
+}

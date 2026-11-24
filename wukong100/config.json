@@ -529,6 +529,15 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem": "multidevicecompatibility",
+      "components": [
+        {
+          "component": "compatibility_config_center",
+          "features": []
+        }
+      ]
     }
   ]
 }
