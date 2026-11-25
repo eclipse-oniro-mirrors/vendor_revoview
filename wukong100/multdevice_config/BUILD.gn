@@ -19,12 +19,6 @@ ohos_prebuilt_etc("compatibility_config_meta") {
     part_name = "product_wukong100"
 }
 
-ohos_prebuilt_etc("compatibility_camera_applist") {
-    source = "camera_applist.json"
-    relative_install_dir = "multDeviceCenter"
-    part_name = "product_wukong100"
-}
-
 ohos_prebuilt_etc("compatibility_keyboardmouse_applist") {
     source = "keyboardmouse_applist.json"
     relative_install_dir = "multDeviceCenter"
@@ -34,7 +28,6 @@ ohos_prebuilt_etc("compatibility_keyboardmouse_applist") {
 group("multdevice_config") {
     deps = [
         ":compatibility_config_meta",
-        ":compatibility_camera_applist",
         ":compatibility_keyboardmouse_applist",
     ]
 }
