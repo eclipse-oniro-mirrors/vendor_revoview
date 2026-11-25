@@ -31,17 +31,10 @@ ohos_prebuilt_etc("compatibility_keyboardmouse_applist") {
     part_name = "product_wukong100"
 }
 
-ohos_prebuilt_etc("compatibility_forcesplit_applist") {
-    source = "forcesplit_applist.json"
-    relative_install_dir = "multDeviceCenter"
-    part_name = "product_wukong100"
-}
-
 group("multdevice_config") {
     deps = [
         ":compatibility_config_meta",
         ":compatibility_camera_applist",
         ":compatibility_keyboardmouse_applist",
-        ":compatibility_forcesplit_applist",
     ]
 }
